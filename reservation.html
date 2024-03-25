@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+</head>
+
+<body>
+    <header>
+        <h1>Travel Reservation Form</h1>
+    </header>
+    <div>
+        <h3>* Denotes Mandotory</h3>
+    </div>
+    <div>
+        <form action="">
+            <div>
+                <label for="name">Full Name*:</label><br>
+                <input type="text" id="name" required placeholder="First and last Name"><br>
+                <label for="email">Email Address*:</label><br>
+                <input type="email" id="email" required placeholder="Email Address"><br>
+            </div>
+            <section>
+                <label for="pkg">Select Tour Package*:</label><br>
+                <select name="pkg" id="pkg" required>
+                    <OPtion>Skardu</OPtion>
+                    <OPtion>Hunza</OPtion>
+                    <OPtion>Fairy Meadows</OPtion>
+                    <OPtion>Islamabad</OPtion>
+                </select><br>
+
+                <label for="date">Arrival Date*:</label><br>
+                <input type="date" id="date" required><br>
+                <label for="No">Number Of Persons*:</label><br>
+                <input type="Number" id="No" required><br>
+                <div>
+                    <label for="">What would you want to avail*:</label><br>
+                    <input type="checkbox" id="boarding">
+                    <label for="boarding">Boarding</label><br>
+                    <input type="checkbox" id="fooding">
+                    <label for="fooding">Fooding</label><br>
+                    <input type="checkbox" id="sight" x>
+                    <label for="sight">Sight Seeing</label><br>
+                </div>
+            </section>
+            <div>
+                <label for="Dis">Discount Coupon Code:</label><br>
+                <input type="text" id="name" placeholder="code"><br>
+            </div>
+            <section>
+                <label for="condi">Terms And Conditions*</label><br>
+                <input type="radio" id="agree" name="cond" required>
+                <label for="agree">I agree</label>
+                <input type="radio" id="disagree" name="cond">
+                <label for="disagree">I disagree</label>
+            </section><br>
+            <div>
+                <input type="submit" value="Complete reservation">
+            </div>
+        </form>
+        <br>
+    </div>
+    <footer>
+        <div>
+            <a href="home.html">Home</a><br>
+            <a href="about.html">About Us</a><br>
+        </div>
+    </footer>
+</body>
+
+</html>
